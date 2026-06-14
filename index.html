@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IRONFORGE GYM</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__logo">IRON<span>FORGE</span></div>
+    <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#classes">Classes</a></li>
+      <li><a href="#trainers">Trainers</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact" class="btn btn--nav">Join Now</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Est. 2015 · London</p>
+      <h1 class="hero__title">FORGE YOUR<br><span>LIMITS.</span></h1>
+      <p class="hero__sub">Elite training. Real results. No excuses.</p>
+      <div class="hero__actions">
+        <a href="#pricing" class="btn btn--primary">Start Today</a>
+        <a href="#classes" class="btn btn--ghost">See Classes</a>
+      </div>
+      <div class="hero__stats">
+        <div class="stat"><span class="stat__num">1,200+</span><span class="stat__label">Members</span></div>
+        <div class="stat__divider"></div>
+        <div class="stat"><span class="stat__num">18</span><span class="stat__label">Expert Trainers</span></div>
+        <div class="stat__divider"></div>
+        <div class="stat"><span class="stat__num">24/7</span><span class="stat__label">Access</span></div>
+      </div>
+    </div>
+    <div class="hero__scroll">SCROLL DOWN ↓</div>
+  </section>
+
+  <!-- TICKER -->
+  <div class="ticker">
+    <div class="ticker__track">
+      <span>STRENGTH TRAINING</span><span class="dot">◆</span>
+      <span>HIIT CLASSES</span><span class="dot">◆</span>
+      <span>PERSONAL TRAINING</span><span class="dot">◆</span>
+      <span>YOGA & MOBILITY</span><span class="dot">◆</span>
+      <span>NUTRITION COACHING</span><span class="dot">◆</span>
+      <span>BOXING</span><span class="dot">◆</span>
+      <span>SPIN CLASSES</span><span class="dot">◆</span>
+      <span>STRENGTH TRAINING</span><span class="dot">◆</span>
+      <span>HIIT CLASSES</span><span class="dot">◆</span>
+      <span>PERSONAL TRAINING</span><span class="dot">◆</span>
+      <span>YOGA & MOBILITY</span><span class="dot">◆</span>
+      <span>NUTRITION COACHING</span><span class="dot">◆</span>
+      <span>BOXING</span><span class="dot">◆</span>
+      <span>SPIN CLASSES</span><span class="dot">◆</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container about__grid">
+      <div class="about__visual">
+        <div class="about__img-wrap">
+          <div class="about__img about__img--1"></div>
+          <div class="about__img about__img--2"></div>
+          <div class="about__badge">
+            <span class="about__badge-num">10</span>
+            <span class="about__badge-text">Years of<br>Excellence</span>
+          </div>
+        </div>
+      </div>
+      <div class="about__text">
+        <p class="section__eyebrow">Who We Are</p>
+        <h2 class="section__title">More Than a Gym.<br>It's a Movement.</h2>
+        <p class="about__body">IronForge was built for people who are serious about change. We combine world-class equipment, science-backed programming, and a community that pushes you further than you'd push yourself.</p>
+        <ul class="about__list">
+          <li><span class="check">✓</span> 15,000 sq ft of premium training space</li>
+          <li><span class="check">✓</span> Olympic lifting platforms & powerlifting cages</li>
+          <li><span class="check">✓</span> Recovery suites — sauna, ice bath, massage</li>
+          <li><span class="check">✓</span> On-site nutrition & supplement bar</li>
+          <li><span class="check">✓</span> App-based class booking & progress tracking</li>
+        </ul>
+        <a href="#contact" class="btn btn--primary">Book a Free Tour</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLASSES -->
+  <section class="classes section" id="classes">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Train Hard</p>
+        <h2 class="section__title">Find Your Class</h2>
+        <p class="section__desc">Over 50 weekly sessions designed for every fitness level, from beginners to competitive athletes.</p>
+      </div>
+      <div class="classes__grid">
+
+        <div class="class-card">
+          <div class="class-card__icon">🏋️</div>
+          <div class="class-card__tag">Strength</div>
+          <h3>Barbell Club</h3>
+          <p>Progressive overload-based programming for squat, bench, and deadlift. Beginner to advanced.</p>
+          <div class="class-card__meta">
+            <span>60 min</span>
+            <span>Mon / Wed / Fri</span>
+          </div>
+          <a href="#contact" class="class-card__link">Book →</a>
+        </div>
+
+        <div class="class-card class-card--featured">
+          <div class="class-card__badge">Popular</div>
+          <div class="class-card__icon">⚡</div>
+          <div class="class-card__tag">Cardio</div>
+          <h3>HIIT Burn</h3>
+          <p>High-intensity interval training that torches calories and builds cardiovascular endurance fast.</p>
+          <div class="class-card__meta">
+            <span>45 min</span>
+            <span>Daily 6am & 7pm</span>
+          </div>
+          <a href="#contact" class="class-card__link">Book →</a>
+        </div>
+
+        <div class="class-card">
+          <div class="class-card__icon">🥊</div>
+          <div class="class-card__tag">Combat</div>
+          <h3>Boxing Fit</h3>
+          <p>Technique, power, and conditioning. Learn real boxing skills while getting in the best shape of your life.</p>
+          <div class="class-card__meta">
+            <span>60 min</span>
+            <span>Tue / Thu / Sat</span>
+          </div>
+          <a href="#contact" class="class-card__link">Book →</a>
+        </div>
+
+        <div class="class-card">
+          <div class="class-card__icon">🧘</div>
+          <div class="class-card__tag">Recovery</div>
+          <h3>Yoga & Mobility</h3>
+          <p>Restore flexibility, reduce injury risk, and improve recovery. Pairs perfectly with any training programme.</p>
+          <div class="class-card__meta">
+            <span>50 min</span>
+            <span>Wed / Sat / Sun</span>
+          </div>
+          <a href="#contact" class="class-card__link">Book →</a>
+        </div>
+
+        <div class="class-card">
+          <div class="class-card__icon">🚴</div>
+          <div class="class-card__tag">Endurance</div>
+          <h3>Spin Cycle</h3>
+          <p>Music-driven, coach-led cycling sessions that push your aerobic limits in a high-energy studio environment.</p>
+          <div class="class-card__meta">
+            <span>45 min</span>
+            <span>Mon / Thu / Sat</span>
+          </div>
+          <a href="#contact" class="class-card__link">Book →</a>
+        </div>
+
+        <div class="class-card">
+          <div class="class-card__icon">💪</div>
+          <div class="class-card__tag">Body Comp</div>
+          <h3>Body Sculpt</h3>
+          <p>Resistance-based circuits focused on muscle tone, definition, and body composition for all levels.</p>
+          <div class="class-card__meta">
+            <span>55 min</span>
+            <span>Tue / Fri / Sun</span>
+          </div>
+          <a href="#contact" class="class-card__link">Book →</a>
+        </div>
+
+      </div>
+      <div class="classes__cta">
+        <a href="#contact" class="btn btn--primary">View Full Timetable</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRAINERS -->
+  <section class="trainers section" id="trainers">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">The Team</p>
+        <h2 class="section__title">Train With the Best</h2>
+        <p class="section__desc">Our coaches are certified professionals with real-world competitive and coaching experience.</p>
+      </div>
+      <div class="trainers__grid">
+
+        <div class="trainer-card">
+          <div class="trainer-card__img trainer-card__img--1"></div>
+          <div class="trainer-card__body">
+            <h3>Marcus Reid</h3>
+            <p class="trainer-card__role">Head of Strength & Conditioning</p>
+            <p class="trainer-card__bio">Former competitive powerlifter. BSc Sports Science. 12 years coaching experience across all levels.</p>
+            <div class="trainer-card__tags">
+              <span>Powerlifting</span><span>S&C</span><span>Nutrition</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="trainer-card">
+          <div class="trainer-card__img trainer-card__img--2"></div>
+          <div class="trainer-card__body">
+            <h3>Aisha Mensah</h3>
+            <p class="trainer-card__role">HIIT & Boxing Coach</p>
+            <p class="trainer-card__bio">Ex-amateur boxing champion. Level 3 PT. Specialises in fat loss, conditioning, and combat sports fitness.</p>
+            <div class="trainer-card__tags">
+              <span>Boxing</span><span>HIIT</span><span>Fat Loss</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="trainer-card">
+          <div class="trainer-card__img trainer-card__img--3"></div>
+          <div class="trainer-card__body">
+            <h3>Tom Hargreaves</h3>
+            <p class="trainer-card__role">Yoga & Mobility Specialist</p>
+            <p class="trainer-card__bio">200-hr yoga certification. Diploma in Sports Therapy. Works with athletes on injury prevention and flexibility.</p>
+            <div class="trainer-card__tags">
+              <span>Yoga</span><span>Mobility</span><span>Rehab</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="trainer-card">
+          <div class="trainer-card__img trainer-card__img--4"></div>
+          <div class="trainer-card__body">
+            <h3>Priya Sharma</h3>
+            <p class="trainer-card__role">Nutrition & Body Composition Coach</p>
+            <p class="trainer-card__bio">MSc Nutrition Science. Certified dietitian. Helps members align their diet with their training goals.</p>
+            <div class="trainer-card__tags">
+              <span>Nutrition</span><span>Physique</span><span>Wellness</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing section" id="pricing">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Simple Pricing</p>
+        <h2 class="section__title">Choose Your Plan</h2>
+        <p class="section__desc">No hidden fees. Cancel anytime. First week is always free.</p>
+      </div>
+      <div class="pricing__grid">
+
+        <div class="price-card">
+          <p class="price-card__name">Starter</p>
+          <div class="price-card__price"><span class="price-card__currency">£</span>29<span class="price-card__period">/mo</span></div>
+          <p class="price-card__desc">Perfect for beginners building their first routine.</p>
+          <ul class="price-card__features">
+            <li>✓ Gym floor access (6am–10pm)</li>
+            <li>✓ 2 group classes per week</li>
+            <li>✓ Locker room & showers</li>
+            <li>✓ Fitness app access</li>
+            <li class="muted">✗ Personal training sessions</li>
+            <li class="muted">✗ Recovery suite access</li>
+            <li class="muted">✗ Nutrition coaching</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Get Started</a>
+        </div>
+
+        <div class="price-card price-card--featured">
+          <div class="price-card__ribbon">Most Popular</div>
+          <p class="price-card__name">Elite</p>
+          <div class="price-card__price"><span class="price-card__currency">£</span>59<span class="price-card__period">/mo</span></div>
+          <p class="price-card__desc">For serious members who want the full IronForge experience.</p>
+          <ul class="price-card__features">
+            <li>✓ 24/7 gym access</li>
+            <li>✓ Unlimited group classes</li>
+            <li>✓ Locker room & showers</li>
+            <li>✓ Fitness app + progress tracking</li>
+            <li>✓ 2 PT sessions per month</li>
+            <li>✓ Recovery suite access</li>
+            <li class="muted">✗ Nutrition coaching</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary">Get Started</a>
+        </div>
+
+        <div class="price-card">
+          <p class="price-card__name">Pro</p>
+          <div class="price-card__price"><span class="price-card__currency">£</span>99<span class="price-card__period">/mo</span></div>
+          <p class="price-card__desc">The all-in package for athletes who train at the highest level.</p>
+          <ul class="price-card__features">
+            <li>✓ 24/7 gym access</li>
+            <li>✓ Unlimited group classes</li>
+            <li>✓ Locker room & showers</li>
+            <li>✓ Fitness app + progress tracking</li>
+            <li>✓ 4 PT sessions per month</li>
+            <li>✓ Recovery suite access</li>
+            <li>✓ Monthly nutrition coaching session</li>
+          </ul>
+          <a href="#contact" class="btn btn--outline">Get Started</a>
+        </div>
+
+      </div>
+      <p class="pricing__note">Day passes available at £12 · Student discount 20% off · Corporate packages available — <a href="#contact">contact us</a></p>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Real Results</p>
+        <h2 class="section__title">Members Don't Lie</h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"I've been to gyms all over London. IronForge is in a completely different league. The coaches genuinely care about your progress and the community is electric."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar t1"></div>
+            <div>
+              <strong>James O.</strong>
+              <span>Member since 2022</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial testimonial--accent">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"Lost 18kg in 6 months. The nutrition coaching combined with the HIIT classes completely changed my body and my mindset. Best investment I've ever made."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar t2"></div>
+            <div>
+              <strong>Fatima A.</strong>
+              <span>Member since 2023</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__stars">★★★★★</div>
+          <p class="testimonial__text">"The Barbell Club took my deadlift from 100kg to 180kg in one year. Marcus knows exactly how to programme for strength gains. Exceptional coaching."</p>
+          <div class="testimonial__author">
+            <div class="testimonial__avatar t3"></div>
+            <div>
+              <strong>Daniel K.</strong>
+              <span>Member since 2021</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Inside IronForge</p>
+        <h2 class="section__title">The Facility</h2>
+      </div>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item g1"><span>Gym Floor</span></div>
+      <div class="gallery__item g2"><span>Barbell Area</span></div>
+      <div class="gallery__item g3"><span>Boxing Ring</span></div>
+      <div class="gallery__item g4"><span>Spin Studio</span></div>
+      <div class="gallery__item g5"><span>Recovery Suite</span></div>
+      <div class="gallery__item g6"><span>Yoga Studio</span></div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="cta-banner__bg"></div>
+    <div class="container cta-banner__content">
+      <h2>YOUR FIRST WEEK IS FREE.</h2>
+      <p>No commitment. No credit card. Just come and train.</p>
+      <a href="#contact" class="btn btn--primary btn--lg">Claim Free Week</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container contact__grid">
+      <div class="contact__info">
+        <p class="section__eyebrow">Get In Touch</p>
+        <h2 class="section__title">Start Your Journey</h2>
+        <p>Whether you want to join, ask about memberships, or book a free facility tour — we're ready when you are.</p>
+        <div class="contact__details">
+          <div class="contact__detail">
+            <span class="contact__icon">📍</span>
+            <div>
+              <strong>Address</strong>
+              <p>42 Iron Street, Stratford, London E15 2QR</p>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <span class="contact__icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <p>020 7946 0382</p>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <span class="contact__icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p>hello@ironforgefit.co.uk</p>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <span class="contact__icon">🕐</span>
+            <div>
+              <strong>Hours</strong>
+              <p>Mon–Fri: 5:30am – 11pm<br>Sat–Sun: 7am – 9pm<br><em>24/7 access for Elite & Pro members</em></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact__form">
+        <form id="contactForm" novalidate>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" placeholder="Marcus" required />
+            </div>
+            <div class="form__group">
+              <label for="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" placeholder="Reid" required />
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form__group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="07700 900000" />
+          </div>
+          <div class="form__group">
+            <label for="interest">I'm interested in…</label>
+            <select id="interest" name="interest">
+              <option value="">Select an option</option>
+              <option>Starter Membership</option>
+              <option>Elite Membership</option>
+              <option>Pro Membership</option>
+              <option>Personal Training</option>
+              <option>Day Pass</option>
+              <option>Corporate Package</option>
+              <option>Free Facility Tour</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="message">Message (optional)</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us about your goals…"></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+          <p class="form__note">We'll get back to you within 24 hours.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <div class="nav__logo">IRON<span>FORGE</span></div>
+        <p>London's premier strength and conditioning facility. Where champions are made.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="Twitter">TW</a>
+          <a href="#" aria-label="YouTube">YT</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#classes">Classes</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Member Login</a></li>
+          <li><a href="#">Book a Class</a></li>
+          <li><a href="#">Corporate Enquiries</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+          <li><a href="#">Health & Safety</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2025 IronForge Gym Ltd. All rights reserved. Registered in England & Wales No. 09876543.</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
