@@ -94,6 +94,8 @@ form.addEventListener('submit', (e) => {
     return;
   }
 
+  // --- would add backend here  hehe---
+
 
   showFormMessage(`Thanks, ${firstName}! We'll be in touch within 24 hours.`, 'success');
   form.reset();
