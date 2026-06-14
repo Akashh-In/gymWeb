@@ -1,5 +1,3 @@
-
-
 // ── Sticky Nav on Scroll ──
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
